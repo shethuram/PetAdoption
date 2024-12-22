@@ -9,9 +9,9 @@ PetAdoption is a web-based platform designed to simplify the pet adoption proces
 ### 🐕 1. **Owner Pages**
 
 - 🖍️ **Owner Form**:
-  - Allows pet owners to submit details about their pets for adoption, including images, descriptions, and other necessary information.
+  - Allows pet owners to submit details about their pets for adoption, including images, price ,age and other necessary information.
 - 🐾 **My Animals Page**:
-  - Displays a personalized list of pets uploaded by the owner, with options for managing or updating pet details.
+  - Displays a personalized list of pets uploaded by the owner and their status of adoption.
 
 ### 🐾 2. **Adopter Features**
 
