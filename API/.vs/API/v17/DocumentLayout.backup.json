@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\PetAdoptionWeb\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\models\\pets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\models\\pets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\models\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\models\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\dto\\petsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\dto\\petsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\dto\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\dto\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|s:\\petadoptionweb\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{947E7141-06ED-4E9F-BE30-A45E68741F64}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAgwJsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:12:41.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T10:50:21.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "API\\Dto\\LoginDto.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "API\\Dto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T02:33:39.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PetsDto.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Dto\\PetsDto.cs",
+              "RelativeDocumentMoniker": "API\\Dto\\PetsDto.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Dto\\PetsDto.cs",
+              "RelativeToolTip": "API\\Dto\\PetsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:00:01.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Leaderboard.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Models\\Leaderboard.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Leaderboard.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Models\\Leaderboard.cs",
+              "RelativeToolTip": "API\\Models\\Leaderboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:34:00.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pets.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Models\\Pets.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Pets.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Models\\Pets.cs",
+              "RelativeToolTip": "API\\Models\\Pets.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:18:25.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Register.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Models\\Register.cs",
+              "RelativeToolTip": "API\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:02:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Data\\UserContext.cs",
+              "RelativeDocumentMoniker": "API\\Data\\UserContext.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Data\\UserContext.cs",
+              "RelativeToolTip": "API\\Data\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:56:20.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwEQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:45:24.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T10:53:09.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticatedResponse.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Dto\\AuthenticatedResponse.cs",
+              "RelativeDocumentMoniker": "API\\Dto\\AuthenticatedResponse.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Dto\\AuthenticatedResponse.cs",
+              "RelativeToolTip": "API\\Dto\\AuthenticatedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:44:37.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\Dto\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "API\\Dto\\RegisterDto.cs",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\Dto\\RegisterDto.cs",
+              "RelativeToolTip": "API\\Dto\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:17:31.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "API.csproj",
+              "DocumentMoniker": "S:\\PetAdoptionWeb\\API\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "S:\\PetAdoptionWeb\\API\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T10:59:25.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
