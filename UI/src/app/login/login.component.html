@@ -1,0 +1,58 @@
+<div class="navbar">
+    <a routerLink="/register" routerLinkActive="active">Register</a>
+    <a routerLink="/login" routerLinkActive="active">Login</a>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
+
+
+<div class="loginform-container">
+    <h2 class="title">Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="ownerform">
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          formControlName="email"
+          class="input-field"
+          placeholder="Enter your email"
+        />
+        <div *ngIf="loginForm.controls['email'].invalid && loginForm.controls['email'].touched" class="error-message">
+          Valid email is required
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          formControlName="password"
+          class="input-field"
+          placeholder="Enter your password"
+        />
+        <div *ngIf="loginForm.controls['password'].invalid && loginForm.controls['password'].touched" class="error-message">
+          Password must be at least 6 characters
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="type">Type</label>
+        <select id="type" formControlName="type" class="input-field">
+          <option value="">Select Type</option>
+          <option value="owner">Owner</option>
+          <option value="user">User</option>
+        </select>
+        <div *ngIf="loginForm.controls['type'].invalid && loginForm.controls['type'].touched" class="error-message">
+          Please select a type
+        </div>
+      </div>
+  
+      <button type="submit" [disabled]="loginForm.invalid" class="submit-btn">
+        Login
+      </button>
+    </form>
+  </div>
+  

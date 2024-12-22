@@ -1,0 +1,31 @@
+<!-- Navbar for Animals Page -->
+<div class="navbar">
+    <a routerLink="/ownerform" routerLinkActive="active">Owner Form</a>
+    <a routerLink="/my-animals" routerLinkActive="active">My Animals</a>
+    <a (click)="logout()" routerLink="/register" routerLinkActive="active" class="logout">Log Out</a>
+  </div>
+
+  <router-outlet></router-outlet>
+
+  <!-- Animals Table Page -->
+  <table class="animals-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Quoted Price</th>
+        <th>Status</th>
+        <th>Bought Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let animal of animals">
+        <td>{{ animal.name }}</td>
+        <td>₹{{ animal.quoted_price }}</td>
+        <td [ngClass]="{'available': !animal.is_adopted, 'sold': animal.is_adopted }">
+          {{ animal.is_adopted ? 'Sold' : 'Available'}}
+        </td>
+        <td>₹{{ animal.bought_price }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

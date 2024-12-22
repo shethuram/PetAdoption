@@ -1,0 +1,71 @@
+<div class="navbar">
+    <a routerLink="/register" routerLinkActive="active">Register</a>
+    <a routerLink="/login" routerLinkActive="active">Login</a>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
+
+
+<div class="registerform-container">
+    <h2 class="title">Register</h2>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="ownerform">
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input
+          id="name"
+          formControlName="name"
+          class="input-field"
+          placeholder="Enter your name"
+        />
+        <div *ngIf="registerForm.controls['name'].invalid && registerForm.controls['name'].touched" class="error-message">
+          Name is required
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="type">Type</label>
+        <select id="type" formControlName="type" class="input-field">
+          <option value="">Select Type</option>
+          <option value="owner">Owner</option>
+          <option value="user">User</option>
+        </select>
+        <div *ngIf="registerForm.controls['type'].invalid && registerForm.controls['type'].touched" class="error-message">
+          Please select a type
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          formControlName="email"
+          class="input-field"
+          placeholder="Enter your email"
+        />
+        <div *ngIf="registerForm.controls['email'].invalid && registerForm.controls['email'].touched" class="error-message">
+          Valid email is required
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          formControlName="password"
+          class="input-field"
+          placeholder="Enter your password"
+        />
+        <div *ngIf="registerForm.controls['password'].invalid && registerForm.controls['password'].touched" class="error-message">
+          Password must be at least 7 characters and contain at least one special character
+        </div>
+      </div>
+  
+      <button type="submit" [disabled]="registerForm.invalid" class="submit-btn">
+        Register
+      </button>
+    </form>
+  </div>
+  

@@ -1,0 +1,52 @@
+/* Set the container to relative positioning to handle absolute image positioning */
+.container {
+    position: relative;
+    height: 100vh; /* Make sure container takes full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  /* Style the image */
+  .background-image {
+    position: absolute; /* Position image behind content */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the image covers the entire container */
+    height: 100%;
+    object-fit: cover; /* Cover the container without distorting */
+    z-index: -1; /* Place image behind buttons and content */
+   
+  }
+  
+  /* Content (buttons) styles */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; /* Ensure content is on top of image */
+    transform: translateX(-300px); /* Move buttons slightly to the left along the X-axis */
+  }
+  
+  /* Button styles */
+  .custom-button {
+    margin: 10px 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;  /* Remove underline */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .custom-button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken background */
+    transform: scale(1.1); /* Slightly increase button size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  }
+
+  

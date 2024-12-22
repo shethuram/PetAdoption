@@ -1,0 +1,38 @@
+<div class="navbar">
+    <a routerLink="/userform" routerLinkActive="active">Adoption</a>
+    <a routerLink="/leaderboard" routerLinkActive="active">Leaderboard</a>
+    <a (click)="logout()" routerLink="/register" routerLinkActive="active" class="logout">Log Out</a>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
+<div class="carousel-container">
+    <div class="image-container">
+      <img [src]="pets[currentIndex]?.imageurl" [alt]="pets[currentIndex]?.name" />
+    </div>
+    <div class="details-container">
+      <h2>{{ pets[currentIndex]?.name }}</h2>
+      <p><strong>Type:</strong> {{ pets[currentIndex]?.type }}</p>
+      <p><strong>Breed:</strong> {{ pets[currentIndex]?.breed }}</p>
+      <p><strong>Age:</strong> {{ pets[currentIndex]?.age }}</p>
+      <p><strong>Price:</strong> {{ pets[currentIndex]?.quoted_price }}</p>
+    </div>
+  
+    <!-- Adopt Button -->
+    <button class="adopt-button" (click)="openAdoptModal()" [disabled]="pets[currentIndex]?.is_adopted">Adopt</button>
+  
+    <div class="navigation-buttons">
+      <button (click)="showPrevious()" [disabled]="currentIndex === 0">Previous</button>
+      <button (click)="showNext()" [disabled]="currentIndex === pets.length - 1">Next</button>
+    </div>
+  </div>
+  
+  <!-- Modal for Adopt Confirmation -->
+  <div class="modal" *ngIf="isAdoptModalOpen">
+    <div class="modal-content">
+      <h3>Adoption Request Sent</h3>
+      <p>The owner has been notified and your adoption price is: <strong>{{ pets[currentIndex]?.bought_price }}</strong></p>
+      <button (click)="closeAdoptModal()">Close</button>
+    </div>
+  </div>
+  

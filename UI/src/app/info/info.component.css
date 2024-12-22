@@ -1,0 +1,48 @@
+/* Updated styles for a cooler look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.info-container {
+  width: 100%; /* Ensure full width for responsiveness */
+  max-width: 1000px; /* Set a maximum width for large screens */
+  margin: 30px auto;   /* Centers the container dynamically */
+  padding: 30px;
+  background-color: #f9f9f9; /* Lighter background for a clean look */
+  border-radius: 15px; /* Smooth edges */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Pronounced shadow for depth */
+  font-family: 'Poppins', sans-serif; /* Cool modern font */
+  color: #444; /* Easy-to-read text color */
+  line-height: 1.8;
+  overflow: hidden; /* Prevent scrolling inside the container*/
+}
+
+.info-container h2 {
+  color: #2a9df4; /* Bright blue for headers */
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600; /* Bold for emphasis */
+  font-size: 28px; /* Larger font size */
+}
+
+.info-container p {
+  font-size: 18px; /* Larger text for better readability */
+  text-align: justify;
+}
+
+.info-container ul {
+  margin: 20px 0;
+  padding-left: 30px; /* Proper alignment for bullets */
+}
+
+.info-container ul li {
+  margin-bottom: 12px;
+  font-size: 16px; /* Slightly larger font for clarity */
+}
+
+.info-container ul li b {
+  color: #f57c00; /* Highlighting important points */
+  font-weight: 600;
+}
+
+body {
+  overflow-y: hidden; /* Disable scrolling on the entire page */
+}

@@ -1,0 +1,50 @@
+<!-- Navbar for Owner Form Page -->
+<div class="navbar">
+    <a routerLink="/ownerform" routerLinkActive="active">Owner Form</a>
+    <a routerLink="/my-animals" routerLinkActive="active">My Animals</a>
+    <a (click)="logout()" routerLink="/firstpage" routerLinkActive="active" class="logout">Log Out</a>
+  </div>
+
+  <router-outlet></router-outlet>
+  
+  <!-- Owner Form Page -->
+  <div class="form-container">
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="petImage">Pet Image</label>
+        <input type="file" id="petImage" (change)="onFileSelected($event)" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="petName">Name</label>
+        <input type="text" id="petName" [(ngModel)]="petDetails.name" name="name" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="petType">Type</label>
+        <select id="petType" [(ngModel)]="petDetails.type" name="type" required>
+          <option value="" disabled selected>Select a type</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="petBreed">Breed</label>
+        <input type="text" id="petBreed" [(ngModel)]="petDetails.breed" name="breed" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="petAge">Age</label>
+        <input type="number" id="petAge" [(ngModel)]="petDetails.age" name="age" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="petPrice">Price</label>
+        <input type="number" id="petPrice" [(ngModel)]="petDetails.quoted_price" name="price" required />
+      </div>
+  
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+  

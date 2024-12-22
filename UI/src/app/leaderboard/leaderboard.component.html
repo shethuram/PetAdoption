@@ -1,0 +1,27 @@
+<div class="navbar">
+    <a routerLink="/userform" routerLinkActive="active">Adoption</a>
+    <a routerLink="/leaderboard" routerLinkActive="active">Leaderboard</a>
+    <a (click)="logout()" routerLink="/register" routerLinkActive="active" class="logout">Log Out</a>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
+
+<div class="leaderboard-container">
+    <h1>Leaderboard</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Purchase Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let leader of leaders; let i = index">
+          <td [ngStyle]="{'color': i < 3 ? 'red' : 'black'}">{{ leader.name }}</td>
+          <td [ngStyle]="{'color': i < 3 ? 'red' : 'black'}">{{ leader.purchasecount }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,143 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+
+
+/* Login Form Styling */
+.loginform-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Form styling */
+  .ownerform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input group container */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Input fields (text, email, password, select) */
+  .input-field {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Light background color for input fields */
+  }
+  
+  select {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #4CAF50; /* Green color from your ownerform */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .submit-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #e74c3c; /* Red error color */
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Validation styles */
+  input:invalid, select:invalid {
+    border: 1px solid #e74c3c; /* Red border for invalid fields */
+  }
+  
+  input:valid, select:valid {
+    border: 1px solid #2ecc71; /* Green border for valid fields */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 600px) {
+    .loginform-container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    .input-field {
+      padding: 12px;
+      font-size: 14px;
+    }
+  
+    .submit-btn {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
